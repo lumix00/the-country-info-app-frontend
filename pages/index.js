@@ -79,7 +79,7 @@ export default function Home() {
             onClick={prevPage}
             className={'mr-4 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700 transition duration-200'}
           >
-            Previous
+            Previous Page
           </button>
         )}
         {indexOfLastCountry < countries.length && ( 
@@ -87,7 +87,7 @@ export default function Home() {
             onClick={nextPage}
             className={'px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700 transition duration-200'}
           >
-            Load More
+            Next Page
           </button>
         )}
       </div>
